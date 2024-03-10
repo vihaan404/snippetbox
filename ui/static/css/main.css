@@ -1,0 +1,38 @@
+
+/* Overall Structure */
+body {
+    font-family: Arial, sans-serif; /* A common, clean font */
+    margin: 0;
+    padding: 20px;
+}
+
+/* Navigation */
+nav ul {
+    list-style-type: none; /* Remove default bullet points */
+    padding: 0;
+    margin: 0 0 20px 0;  /* Space below the nav */
+    background-color: #f0f0f0; /* Light gray background */
+}
+
+nav li {
+    display: inline-block; /* Make links sit side by side*/
+    margin-right: 15px; 
+}
+
+nav a {
+    text-decoration: none; /* Remove default underline */
+    color: #333; /* Dark gray link color */
+}
+
+/* Main Content */
+main {
+    border: 1px solid #ccc; /* Light border for definition */
+    padding: 15px;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 0.8em; /* Slightly smaller text */
+}
