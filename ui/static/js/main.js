@@ -1,8 +1,8 @@
-
-// Simple Example: Toggle navigation for smaller screens
-const navToggle = document.getElementById('nav-toggle'); // Assuming you have an element to open/close nav
-const navMenu = document.getElementById('nav-menu');   // Assuming your main navigation has an ID
-
-navToggle.addEventListener('click', function() {
-  navMenu.classList.toggle('show-nav');
-});
+var navLinks = document.querySelectorAll("nav a");
+for (var i = 0; i < navLinks.length; i++) {
+	var link = navLinks[i]
+	if (link.getAttribute('href') == window.location.pathname) {
+		link.classList.add("live");
+		break;
+	}
+}
